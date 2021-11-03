@@ -6,7 +6,7 @@ class War(Standard):
   def __init__(self,players):
     super().__init__()
     self.players = players
-    self.starting_cards = 10
+    self.starting_cards = 52
     self.winner = None
 
   def deal_starting_hands(self):
